@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Panaderia" />
+    <meta name="author" content="Luciano Hidalgo" />
+    <meta name="keywords"content="Panaderia, facturas, pan, brownie, medialunas"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/532cfcd2fd.js" crossorigin="anonymous"></script>
+    <title>Panaderia</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/cocu_logo-450.png" alt="logo de cocu" width="100px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html"
+                  >Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+        <section>
+          <h1 class="display-2 text-center">Contactanos</h1>
+          <hr>
+          <article class="row">
+              <div class="col-sm-12 col-md-6 mb-3">
+                <form>
+                    <div class="mb-3">
+                      <label for="" class="forM-label">Nombre y Apellido</label>
+                      <input type="text" class="form-control" id="nombreApellido" required minlength="8" maxlength="50">
+                    </div>
+                    <div class="mb-3">
+                       <label for="email" class="form-label"></label>
+                       <input type="email" id="email" class="form-control" required maxlength="40">
+                    </div>
+                    <div class="mb-3">
+                        <label for="consulta" class="form-label"> Consulta</label>
+                        <textarea id="consulta" rows="4" class="form-control" minlength="3" maxlength="259" required>
+
+                        </textarea>
+                    </div>
+                    <button class="btn-primary" type="submit">
+                        Enviar
+                    </button>
+                </form>
+              </div>
+              <div class="col-sm-12 col-md-6 mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11379667.893494574!2d-6.924094218123403!3d45.8665231138562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrancia!5e0!3m2!1ses-419!2sar!4v1630333071307!5m2!1ses-419!2sar" class="w-100" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </article>
+        </section>
+    </main>
+      <footer>
+        <article class="mt-4 bg-dark">
+         <div class="container">
+           <div class="row">
+             <div class="col-sm-12 col-md-4 centrar">
+               <img src="../img/cocu_logo-450.png" alt="logo de Panaderia" class="w-50">
+            </div>
+             <div class="col-sm-12 col-md-4 text-white mt-4"><h6>Horarios de Atención</h6>
+             <div class="col-12 mt-4 text-light"><p>Lunes a viernes:09hs-18hs</p>
+             </div>
+             <div class="col-12 text-light"><p>Sabado, domingo y feriados:09hs-14hs</p>
+            </div>
+            </div>
+             <div class="col-sm-12 col-md-4 text-light mt-4"><h6>seguinos en nuestras redes:</h6>
+              <div class="col-sm-12 col-md-6 row mt-4 centrar">
+            <div class="col-4"> 
+              <i class="fab fa-facebook-square text-white fa-2x"></i>
+            </div>
+             <div class="col-4">
+              <i class="fab fa-twitter-square text-white fa-2x"></i>
+             </div>
+             <div class="col-4">
+              <i class="fab fa-instagram-square text-white fa-2x"></i>
+             </div>
+            </div>
+          </div>
+           </div>
+         </div>
+        </article>
+      </footer>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
